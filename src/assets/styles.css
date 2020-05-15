@@ -1,0 +1,193 @@
+
+/**
+.............................................
+Login Page CSS - Left Bar
+.......................................
+**/
+
+body{
+    background-image: url('./images/background.jpg');
+}
+
+.login{
+    margin:150px;
+  
+
+}
+.login-text{
+   position: absolute;
+    display: block;
+    width:30%;
+    height:80%;
+    float: left;
+    background-color:#16a085;
+}
+
+.login-text img{
+    width:70px;
+    height:70px;
+    margin:10px;
+}
+
+.welcome{
+    text-align: center;
+    position: absolute;
+    top:30%;
+}
+
+.title{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.paragraph{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-left: 30px;
+}
+
+/**
+------------------------------------------------------------
+Login Form - Right
+...............................................................
+**/
+
+.loginForm{
+    float:right;
+    width:63%;
+    height:100%;
+}
+
+.form{
+    float:right;
+    position: absolute;
+    top:26%;
+    margin-left:20px;
+    background-color: white;
+    width:50%;
+    height:80%;
+  
+}
+.form h4{
+    color:#16a085;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.inputBox{
+    width:350px;
+    height:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left:25%;
+    margin-top:20px;
+    background-color: #ecf0f1;
+    font-size:15px;
+}
+
+.button{
+    background-color:#16a085;
+    width:150px;
+    height:50px;
+    color: white;
+    font-weight: bold;
+    margin-left:45%;
+    margin-top:20px
+}
+
+/**
+-------------------------------------------------------------------
+Dashboard
+....................................................................
+**/
+.dashboard-title{
+    display: inline-block;
+    background-color: #16a085;
+    height:120px;
+    width:100%;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    padding-top:20px
+
+}
+
+.dashboard-title button{
+    width:90px;
+    height:30px;
+    display: block;
+    float:right;
+    margin-right:40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dashboard-data{
+    margin-left:60px;
+    margin-right:10px;
+    margin-top:60px;
+    height:80%;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+  /**
+  ..........................................................
+  Popup
+  **/
+#popupdiv {
+    width:100%;
+    height:100%;
+    opacity:.90;
+    top:0;
+    left:0;
+    position:fixed;
+    background-color:#313131;
+    overflow:auto;
+    display: none;
+  }
+  
+  #popupMessage {
+    position:absolute;
+    left:55%;
+    top:30%;
+    margin-left:-202px;
+    font-family:'Raleway',sans-serif;
+    color: #fff;
+    background-color : #16a085;
+    padding: 25px;
+    -webkit-box-shadow: 1px 1px 6px 5px rgba(147,172,189,1);
+      -moz-box-shadow: 1px 1px 6px 5px rgba(147,172,189,1);
+      box-shadow: 1px 1px 6px 3px rgba(147,172,189,1);
+      margin-bottom: 15px;
+    }
+  #close {
+      position:absolute;
+      right:-14px;
+      top:-14px;
+      cursor:pointer;
+      border-radius: 30%;
+      border: transparent;
+      }
